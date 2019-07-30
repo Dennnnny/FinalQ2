@@ -1,0 +1,74 @@
+html,body,.container{
+  height: 100vh;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #000;
+}
+
+.square  {
+  /* background-color: red; */
+ 
+  display:inline-block;
+  width: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 100px;
+
+}
+
+.num {
+  text-align:center;  
+  display:inline-block;
+  width: 100px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px; 
+  background-color: #999;
+}
+
+.container {
+  text-align: center;
+  
+}
+
+.box{
+  margin-top: 10px ;
+  
+}
+
+.hex-text {
+  background-color: rgba(255,255,255,.3);
+  text-align: center;
+  display: inline-block;
+  font-size: 60px;
+  
+  width: 300px;
+  border-radius: 5px;
+}
+
+.red,.green,.blue{
+  -webkit-appearance: none; 
+  appearance: none;
+
+  position: relative;
+  top: -10px;
+  height: 5px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+}
+
+.red::-webkit-slider-thumb,.green::-webkit-slider-thumb,.blue::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  position: relative;
+  
+  width: 24px; /* Set a specific slider handle width */
+  height: 24px; /* Slider handle height */
+  border-radius: 100px;
+  border: #444 solid  1px;
+  background: #fff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}

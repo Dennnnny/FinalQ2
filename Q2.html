@@ -1,0 +1,51 @@
+<!-- num to hex -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Q2.css">
+  <title>A21-Q2-Color</title>
+</head>
+
+<body>
+
+  <div class="container d-flex flex-column justify-content-center">
+
+    <div class="box">
+      <span class="square" style="background-color: red;">R</span>
+      <input type="range" min="0" max="255" step="1" value="0" class="red">
+      <span class="num" style="background-color: red;">0</span>
+    </div>
+    <div class="box">
+      <span class="square" style="background-color: green;">G</span>
+      <input type="range" min="0" max="255" step="1" value="0" class="green">
+      <span class="num" style="background-color: green;">0</span>
+    </div>
+    <div class="box">
+      <span class="square" style="background-color: blue;">B</span>
+      <input type="range" min="0" max="255" step="1" value="0" class="blue">
+      <span class="num" style="background-color: blue;">0</span>
+    </div>
+    <div class="box">
+      <div class="hex-text">#000000</div>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="Q2.js"></script>
+
+</body>
+
+</html>
